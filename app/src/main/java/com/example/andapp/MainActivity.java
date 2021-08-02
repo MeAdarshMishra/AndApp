@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ttt=new Intent(AuthPage.this, TtSpeech.class);
+                Intent ttt=new Intent(MainActivity.this, TtSpeech.class);
                 startActivity(ttt);
                 finish();
             }
