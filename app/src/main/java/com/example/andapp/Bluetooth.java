@@ -22,7 +22,7 @@ public class Bluetooth extends AppCompatActivity implements SensorEventListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bluetooth);
-        backButton = findViewById(R.id.button78);
+        back = findViewById(R.id.blueback);
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
