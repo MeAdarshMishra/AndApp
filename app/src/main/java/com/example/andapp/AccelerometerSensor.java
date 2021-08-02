@@ -45,7 +45,7 @@ public class AccelerometerSensor extends AppCompatActivity {
         backsensor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent s = new Intent(AccelerometerSensor.this, AccelerometerWifi.class);
+                Intent s = new Intent(AccelerometerSensor.this, MainActivity.class);
                 startActivity(s);
                 finish();
             }
