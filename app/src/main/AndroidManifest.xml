@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
+        <activity android:name=".AccelerometerFlash"></activity>
+        <activity android:name=".AccelerometerWifi" />
+        <activity android:name=".AccelerometerBluetooth" />
         <activity android:name=".FlashLight" />
         <activity android:name=".WifiPage" />
         <activity android:name=".TtSpeech" />
