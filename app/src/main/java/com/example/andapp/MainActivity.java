@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bluetooth = new Intent(MainActivity.this, Bluetooth.class);
-                startActivity(bluetooth);
+                Intent bluetooths = new Intent(MainActivity.this, Bluetooth.class);
+                startActivity(bluetooths);
                 finish();
 
             }
