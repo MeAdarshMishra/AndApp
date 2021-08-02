@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AccelerometerSensor extends AppCompatActivity {
-    Button bluetooth, flash, wifi;
+    Button bluetooth, flash, wifi, backsensor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class AccelerometerSensor extends AppCompatActivity {
         bluetooth = findViewById(R.id.abluetooth);
         flash = findViewById(R.id.aflash);
         wifi = findViewById(R.id.awifi);
+        backsensor = findViewById(R.id.sensorback);
         bluetooth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +39,14 @@ public class AccelerometerSensor extends AppCompatActivity {
             public void onClick(View v) {
                 Intent w = new Intent(AccelerometerSensor.this, AccelerometerWifi.class);
                 startActivity(w);
+                finish();
+            }
+        });
+        backsensor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent s = new Intent(AccelerometerSensor.this, AccelerometerWifi.class);
+                startActivity(s);
                 finish();
             }
         });
