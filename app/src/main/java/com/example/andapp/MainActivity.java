@@ -21,11 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
         b3=findViewById(R.id.wifibutton);
         b4=findViewById(R.id.accelerometerbutton);
-        b5=findViewById(R.id.MP4);
+        b5 = findViewById(R.id.MP4);
+        b6 = findViewById(R.id.bluetooth);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ttt=new Intent(MainActivity.this, TtSpeech.class);
+                Intent ttt = new Intent(MainActivity.this, TtSpeech.class);
                 startActivity(ttt);
                 finish();
             }
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        b5.setOnClickListener(new View.OnClickListener() {
+        b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent bluetooths = new Intent(MainActivity.this, Bluetooth.class);
