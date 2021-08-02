@@ -34,19 +34,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="477dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="325dp"
         android:text="Text To Speech" />
-
-    <Button
-        android:id="@+id/vibrationbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="411dp"
-        android:text="Vibration Sensor" />
 
     <Button
         android:id="@+id/wifibutton"
@@ -54,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="283dp"
         android:text="WIFI On/Off" />
 
     <Button
@@ -63,10 +53,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginBottom="346dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="442dp"
         android:text="Accelerometer Sensor" />
 
     <Button
@@ -75,8 +67,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="79dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="178dp"
         android:text="MP4" />
 
 </RelativeLayout>
