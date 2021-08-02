@@ -34,8 +34,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="325dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="405dp"
         android:text="Text To Speech" />
 
     <Button
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginBottom="283dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="203dp"
         android:text="WIFI On/Off" />
 
     <Button
@@ -56,9 +56,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="165dp"
-        android:layout_marginBottom="442dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="344dp"
         android:text="Accelerometer Sensor" />
 
     <Button
@@ -68,7 +68,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="29dp"
-        android:layout_marginBottom="178dp"
+        android:layout_marginBottom="119dp"
         android:text="MP4" />
 
 </RelativeLayout>
