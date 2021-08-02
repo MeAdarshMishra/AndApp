@@ -41,12 +41,22 @@ public class MainActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent accelerometer=new Intent(MainActivity.this,AccelerometerSensor.class);
+                Intent accelerometer = new Intent(MainActivity.this, AccelerometerSensor.class);
                 startActivity(accelerometer);
                 finish();
-                //INcomplete work
+
             }
         });
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bluetooth = new Intent(MainActivity.this, Bluetooth.class);
+                startActivity(bluetooth);
+                finish();
+
+            }
+        });
+
 
     }
 }
