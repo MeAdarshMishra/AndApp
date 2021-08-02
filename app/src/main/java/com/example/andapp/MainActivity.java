@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent vibration=new Intent(AuthPage.this,VibrationSensor.class);
+                Intent vibration=new Intent(MainActivity.this,VibrationSensor.class);
                 startActivity(vibration);
                 finish();
             }
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent wifi=new Intent(AuthPage.this,WifiPage.class);
+                Intent wifi=new Intent(MainActivity.this,WifiPage.class);
                 startActivity(wifi);
                 finish();
             }
@@ -49,19 +49,12 @@ public class MainActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent accelerometer=new Intent(AuthPage.this,AccelerometerSensor.class);
+                Intent accelerometer=new Intent(MainActivity.this,AccelerometerSensor.class);
                 startActivity(accelerometer);
                 finish();
                 //INcomplete work
             }
         });
-        b5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent mp4=new Intent(AuthPage.this,MP4_Player.class);
-                startActivity(mp4);
-                finish();
-            }
-        });
+
     }
 }
