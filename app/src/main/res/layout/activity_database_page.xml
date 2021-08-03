@@ -6,7 +6,7 @@
     tools:context=".DatabasePage">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/nametextdatabase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -18,7 +18,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/passwordtextdatabase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -30,7 +30,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/emaildatabase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -44,7 +44,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/numberdatabase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -58,16 +58,16 @@
         android:inputType="number" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/savedatabase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="99dp"
-        android:text="Save" />
+        android:text="Save and Continue" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/RealtimedatabaseTextview"
         android:layout_width="412dp"
         android:layout_height="34dp"
         android:layout_alignParentStart="true"
