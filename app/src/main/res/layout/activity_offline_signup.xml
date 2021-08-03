@@ -19,7 +19,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/loginpassword"
+        android:id="@+id/signuppassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
