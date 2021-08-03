@@ -62,7 +62,15 @@ public class OfflineLogin extends AppCompatActivity {
                         Toast.makeText(OfflineLogin.this, "Miss Match!", Toast.LENGTH_SHORT).show();
                     }
                 }
-            })
-        }
+            }
+        });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back = new Intent(OfflineLogin.this, LoginPage.class);
+                startActivity(back);
+                finish();
+            }
+        });
     }
 }
