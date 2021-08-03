@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
-        <activity android:name=".OfflineLogin"></activity>
+        <activity android:name=".OfflineSignup"></activity>
+        <activity android:name=".OfflineLogin" />
         <activity android:name=".LoginPage" />
         <activity android:name=".Bluetooth" />
         <activity android:name=".AccelerometerFlash" />
