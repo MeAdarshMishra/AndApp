@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
-        <activity android:name=".Bluetooth"></activity>
+        <activity android:name=".LoginPage"></activity>
+        <activity android:name=".Bluetooth" />
         <activity android:name=".AccelerometerFlash" />
         <activity android:name=".AccelerometerWifi" />
         <activity android:name=".AccelerometerBluetooth" />
