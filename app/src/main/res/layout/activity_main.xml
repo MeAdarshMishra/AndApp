@@ -28,57 +28,14 @@
         app:layout_constraintVertical_bias="0.131" />
 
     <Button
-        android:id="@+id/texttospeeech"
+        android:id="@+id/offlineloginmainpage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginBottom="385dp"
-        android:text="Text To Speech" />
-
-    <Button
-        android:id="@+id/wifibutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginBottom="255dp"
-        android:text="WIFI On/Off" />
-
-    <Button
-        android:id="@+id/accelerometerbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="169dp"
-        android:layout_marginBottom="454dp"
-        android:text="Accelerometer Sensor" />
-
-    <Button
-        android:id="@+id/MP4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="199dp"
-        android:text="MP4" />
-
-    <Button
-        android:id="@+id/bluetooth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginBottom="324dp"
-        android:text="Bluetooth" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginBottom="415dp"
+        android:text="Offline Setup" />
 
 </RelativeLayout>

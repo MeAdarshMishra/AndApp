@@ -16,14 +16,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        t1=findViewById(R.id.textView3);
-        b1=findViewById(R.id.texttospeeech);
-
-        b3=findViewById(R.id.wifibutton);
-        b4=findViewById(R.id.accelerometerbutton);
-        b5 = findViewById(R.id.MP4);
-        b6 = findViewById(R.id.bluetooth);
-        b3.setOnClickListener(new View.OnClickListener() {
+        t1 = findViewById(R.id.textView3);
+        b1 = findViewById(R.id.offlineloginmainpage);
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent offline = new Intent(MainActivity.this, OfflineLogin.class);
