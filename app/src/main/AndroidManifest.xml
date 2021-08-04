@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
-        <activity android:name=".DatabasePage"></activity>
+        <activity android:name=".OnlineLogin"></activity>
+        <activity android:name=".DatabasePage" />
         <activity android:name=".OfflineSignup" />
         <activity android:name=".OfflineLogin" />
         <activity android:name=".LoginPage" />
