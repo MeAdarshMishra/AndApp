@@ -27,7 +27,7 @@ public class OnlineLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_online_login);
-        t1 = findViewById(R.id.textView2);
+        t1 = findViewById(R.id.WelcomePageOnline);
         signInButton = findViewById(R.id.OnlineSignin);
         firebaseAuth = FirebaseAuth.getInstance();
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken("152607254109-hl7sn5e4r1df5b6fjq0chi89kv4fq2gv.apps.googleusercontent.com").requestEmail().build();
@@ -62,11 +62,11 @@ public class OnlineLogin extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
-                                    Toast.makeText(MainActivity.this, "Firebase Updated", Toast.LENGTH_SHORT).show();
-                                    Intent k = new Intent(MainActivity.this, Second.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    Toast.makeText(OnlineLogin.this, "Firebase Updated", Toast.LENGTH_SHORT).show();
+                                    Intent k = new Intent(OnlineLogin.this, AllApp.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                     startActivity(k);
                                 } else {
-                                    Toast.makeText(MainActivity.this, "Firebase not Updated", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(OnlineLogin.this, "Firebase not Updated", Toast.LENGTH_SHORT).show();
                                 }
                             }
                         });
