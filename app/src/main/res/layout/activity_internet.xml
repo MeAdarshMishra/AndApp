@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Internet">
+
+    <WebView
+        android:id="@+id/Viewweb"
+        android:layout_width="match_parent"
+        android:layout_height="382dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="2dp" />
+
+    <Button
+        android:id="@+id/searchweb"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="164dp"
+        android:text="Search"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/textweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="245dp"
+        android:ems="10"
+        android:hint="Search Here"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/webback"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
