@@ -32,8 +32,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="39dp"
-        android:layout_marginBottom="507dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="378dp"
         android:text="Calculator" />
 
     <Button
@@ -42,8 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="231dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="509dp"
         android:text="Bluetooth" />
 
     <Button
@@ -52,8 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="38dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="33dp"
         android:text="DataBaseUpdate" />
 
     <Button
@@ -62,8 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="38dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="36dp"
         android:text="FlashLight" />
 
     <Button
@@ -72,27 +72,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="38dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="254dp"
         android:text="Text To Speech" />
 
     <Button
         android:id="@+id/vibrationall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="290dp"
         android:text="Vibration" />
 
     <Button
         android:id="@+id/wifiall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="38dp"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="581dp"
+        android:layout_marginEnd="37dp"
         android:text="WIFI" />
 </RelativeLayout>

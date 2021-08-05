@@ -1,5 +1,6 @@
 package com.example.andapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Calculator extends AppCompatActivity {
     EditText e1, e2;
-    Button b1, b2, b3, b4;
+    Button b1, b2, b3, b4, b5;
     TextView t1;
 
     @Override
@@ -22,6 +23,7 @@ public class Calculator extends AppCompatActivity {
         b2 = findViewById(R.id.button2);
         b3 = findViewById(R.id.button3);
         b4 = findViewById(R.id.button4);
+        b5 = findViewById(R.id.backcalculator);
         e1 = findViewById(R.id.editText);
         e2 = findViewById(R.id.editText2);
         t1 = findViewById(R.id.textView);
@@ -78,6 +80,14 @@ public class Calculator extends AppCompatActivity {
                 String s3 = Float.toString(f3);
                 t1.setText(s3);
                 Toast.makeText(Calculator.this, "Result is " + s3, Toast.LENGTH_SHORT).show();
+            }
+        });
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back = new Intent(Calculator.this, AllApp.class);
+                startActivity(back);
+                finish();
             }
         });
     }

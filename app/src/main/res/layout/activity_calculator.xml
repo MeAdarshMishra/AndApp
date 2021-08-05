@@ -15,7 +15,9 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_alignParentStart="false"
         android:layout_alignParentEnd="false"
-        android:layout_marginBottom="58dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="190dp"
         android:background="#33b144"
         android:text="ADD"
         android:visibility="visible" />
@@ -44,7 +46,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="42dp"
         android:layout_marginLeft="42dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="146dp"
         android:background="#33b144"
         android:text="MUL" />
 
@@ -91,4 +93,12 @@
         android:layout_marginTop="49dp"
         android:hint="Result is "
         android:text="Result is" />
+
+    <Button
+        android:id="@+id/backcalculator"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Back" />
 </RelativeLayout>

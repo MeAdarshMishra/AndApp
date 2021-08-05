@@ -45,7 +45,7 @@ public class DatabasePage extends AppCompatActivity {
                     Users users = new Users(s1, s2, s3, s4);
                     databaseReference.child(s4).setValue(users);
                     Toast.makeText(DatabasePage.this, "Database Saved", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(DatabasePage.this, MainActivity.class);
+                    Intent i = new Intent(DatabasePage.this, AllApp.class);
                     startActivity(i);
                     finish();
                 }

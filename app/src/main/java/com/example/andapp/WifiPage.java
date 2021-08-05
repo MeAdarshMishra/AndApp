@@ -1,12 +1,12 @@
 package com.example.andapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class WifiPage extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class WifiPage extends AppCompatActivity {
         backwifi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(WifiPage.this,MainActivity.class);
+                Intent i = new Intent(WifiPage.this, AllApp.class);
                 startActivity(i);
                 finish();
             }
