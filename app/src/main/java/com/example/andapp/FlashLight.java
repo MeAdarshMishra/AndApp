@@ -20,8 +20,8 @@ public class FlashLight extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flash_light);
-        on = findViewById(R.id.button);
-        off = findViewById(R.id.button2);
+        on = findViewById(R.id.flashon);
+        off = findViewById(R.id.flashoff);
         backButton = findViewById(R.id.backflash);
         cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
 
