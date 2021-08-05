@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.andapp">
 
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
-    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -16,6 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
+        <activity
+            android:name=".Camera"
+            android:exported="true" />
         <activity
             android:name=".Calculator"
             android:exported="true" />
@@ -33,7 +36,6 @@
         <activity android:name=".AccelerometerWifi" />
         <activity android:name=".AccelerometerBluetooth" />
         <activity android:name=".FlashLight" />
-        <activity android:name=".WifiPage" />
         <activity android:name=".TtSpeech" />
         <activity android:name=".AccelerometerSensor" />
         <activity android:name=".VibrationSensor" />

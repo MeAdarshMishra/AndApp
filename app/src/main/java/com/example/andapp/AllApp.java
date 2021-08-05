@@ -90,7 +90,7 @@ public class AllApp extends AppCompatActivity {
         b9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent wifi = new Intent(AllApp.this, WifiPage.class);
+                Intent wifi = new Intent(AllApp.this, Camera.class);
                 startActivity(wifi);
                 finish();
             }
