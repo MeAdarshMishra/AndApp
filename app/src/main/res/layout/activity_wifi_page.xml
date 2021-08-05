@@ -3,20 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".WifiPage">
 
 
-    <ImageButton
-        android:id="@+id/imagewifi"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="191dp"
-        android:layout_marginEnd="86dp"
-        app:srcCompat="@drawable/off" />
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="128dp"
+        android:text="Wifi On" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginBottom="304dp"
+        android:text="Wifi Off" />
 
     <Button
         android:id="@+id/backwifi"

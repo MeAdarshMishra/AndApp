@@ -5,32 +5,26 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class WifiPage extends AppCompatActivity {
     Button backwifi;
-    ImageButton imageButton;
-    WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
-    private boolean wifiState = false;
+    Button on, off;
+    WifiManager wifiManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wifi_page);
-        backwifi = findViewById(R.id.backwifi);
-        imageButton = findViewById(R.id.imagewifi);
-        if (!wifiState) {
-            wifiManager.setWifiEnabled(true);
-            wifiState = true;
-            imageButton.setImageResource(R.drawable.on);
-        } else {
-            wifiManager.setWifiEnabled(false);
-            wifiState = false;
-            imageButton.setImageResource(R.drawable.off);
-        }
+        setContentView(R.layout.activity_main);
+        on = findViewById(R.id.button);
+        off = findViewById(R.id.button2);
+        wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
+
+        on.setOnClickListener(v -> wifiManager.setWifiEnabled(true));
+
+        off.setOnClickListener(v -> wifiManager.setWifiEnabled(false));
+
         backwifi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
