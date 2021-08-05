@@ -24,8 +24,9 @@ public class AccelerometerWifi extends AppCompatActivity implements SensorEventL
         setContentView(R.layout.activity_accelerometer_wifi);
         back = findViewById(R.id.awifiback);
         wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
-        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

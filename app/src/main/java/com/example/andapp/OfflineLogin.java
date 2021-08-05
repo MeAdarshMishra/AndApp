@@ -55,7 +55,7 @@ public class OfflineLogin extends AppCompatActivity {
 
                     if (cursor.getCount() > 0) {
                         Toast.makeText(OfflineLogin.this, "Successfully Login", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(OfflineLogin.this, AccelerometerSensor.class);
+                        Intent intent = new Intent(OfflineLogin.this, AllApp.class);
                         startActivity(intent);
                         finish();
                     } else {
