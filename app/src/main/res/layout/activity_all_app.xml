@@ -16,11 +16,20 @@
         android:text="back" />
 
     <Button
-        android:id="@+id/Alappaccelerometer"
+        android:id="@+id/Allappaccelerometer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="263dp"
         android:text="Accelerometer Sensor" />
+
+    <Button
+        android:id="@+id/calulatorallapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:text="Calculator" />
 </RelativeLayout>
