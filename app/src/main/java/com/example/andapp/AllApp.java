@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AllApp extends AppCompatActivity {
-    Button b1, b2, b3, b4, b5, b6, b7, b8, b9;
+    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,8 @@ public class AllApp extends AppCompatActivity {
         b7 = findViewById(R.id.ttspeechall);
         b8 = findViewById(R.id.vibrationall);
         b9 = findViewById(R.id.wifiall);
+        b10 = findViewById(R.id.mp3all);
+        b11 = findViewById(R.id.mp4all);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,6 +94,22 @@ public class AllApp extends AppCompatActivity {
             public void onClick(View v) {
                 Intent wifi = new Intent(AllApp.this, Camera.class);
                 startActivity(wifi);
+                finish();
+            }
+        });
+        b10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mp3 = new Intent(AllApp.this, MediaPlayermp3.class);
+                startActivity(mp3);
+                finish();
+            }
+        });
+        b11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mp4 = new Intent(AllApp.this, MediaPlayermp4.class);
+                startActivity(mp4);
                 finish();
             }
         });
