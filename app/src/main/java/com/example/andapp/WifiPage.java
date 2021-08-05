@@ -21,7 +21,7 @@ public class WifiPage extends AppCompatActivity {
         setContentView(R.layout.activity_wifi_page);
         backwifi = findViewById(R.id.backwifi);
         toggleButton = findViewById(R.id.togglewifi);
-        toggleButton.setOnCheckedChangeListener((buttonView, isChecked) -> wifiManager.setWifiEnabled(isChecked));
+        toggleButton.setOnCheckedChangeListener(((buttonView, isChecked) -> wifiManager.setWifiEnabled(isChecked)));
         backwifi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
