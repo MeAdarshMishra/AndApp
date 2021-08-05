@@ -35,10 +35,10 @@ public class OnlineLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_online_login);
-        t1 = findViewById(R.id.WelcomePageOnline);
+        t1 = findViewById(R.id.WelcomehomePagebutton);
         signInButton = findViewById(R.id.OnlineSignin);
         firebaseAuth = FirebaseAuth.getInstance();
-        GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken("152607254109-hl7sn5e4r1df5b6fjq0chi89kv4fq2gv.apps.googleusercontent.com").requestEmail().build();
+        GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken("326693301584-1gs9i7bffsqbfems9udqa5dpnu2dlars.apps.googleusercontent.com").requestEmail().build();
         googleSignInClient = GoogleSignIn.getClient(OnlineLogin.this, googleSignInOptions);
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override

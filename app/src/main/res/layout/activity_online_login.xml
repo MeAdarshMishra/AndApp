@@ -6,25 +6,18 @@
     tools:context=".OnlineLogin">
 
     <TextView
-        android:id="@+id/WelcomePageOnline"
-        style="@android:style/Widget.Material.Light.TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131"
-        android:layout_width="354dp"
-        android:layout_height="207dp"
+        android:id="@+id/WelcomehomePagebutton"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="117dp"
-        android:text="Welcome to AndApp"
-        android:textColor="#266F69"
-        android:textSize="48sp"
-        android:textStyle="bold|italic" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="236dp"
+        android:text="Accelerometer Wifi"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/OnlineSignin"
