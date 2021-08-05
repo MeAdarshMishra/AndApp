@@ -14,7 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
-        <activity android:name=".AllApp"></activity>
+        <activity
+            android:name=".Second"
+            android:exported="true" />
+        <activity android:name=".AllApp" />
         <activity android:name=".OnlineLogin" />
         <activity android:name=".DatabasePage" />
         <activity android:name=".OfflineSignup" />

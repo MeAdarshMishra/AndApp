@@ -71,7 +71,7 @@ public class OnlineLogin extends AppCompatActivity {
                             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(OnlineLogin.this, "Firebase Updated", Toast.LENGTH_SHORT).show();
-                                    Intent k = new Intent(OnlineLogin.this, AllApp.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    Intent k = new Intent(OnlineLogin.this, Second.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                     startActivity(k);
                                 } else {
                                     Toast.makeText(OnlineLogin.this, "Firebase not Updated", Toast.LENGTH_SHORT).show();
