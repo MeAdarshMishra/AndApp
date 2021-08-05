@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/off.xml" value="0.1578125" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/on.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_accelerometer_bluetooth.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_accelerometer_flash.xml" value="0.15217391304347827" />

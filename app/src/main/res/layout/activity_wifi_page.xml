@@ -3,21 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".WifiPage">
 
 
-    <ToggleButton
-        android:id="@+id/togglewifi"
-        android:layout_width="165dp"
-        android:layout_height="73dp"
+    <ImageButton
+        android:id="@+id/imagewifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="235dp"
-        android:layout_marginEnd="123dp"
-        android:checked="false"
-        android:text="ToggleButton"
-        android:textOff="WiFi OFF"
-        android:textOn="WiFi ON" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="86dp"
+        app:srcCompat="@drawable/off" />
 
     <Button
         android:id="@+id/backwifi"

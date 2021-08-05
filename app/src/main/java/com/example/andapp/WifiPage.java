@@ -5,14 +5,15 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ToggleButton;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class WifiPage extends AppCompatActivity {
     Button backwifi;
-    ToggleButton toggleButton;
+    ImageButton imageButton;
     WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
+    private boolean wifiState = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +21,16 @@ public class WifiPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wifi_page);
         backwifi = findViewById(R.id.backwifi);
-        toggleButton = findViewById(R.id.togglewifi);
-        toggleButton.setOnCheckedChangeListener(((buttonView, isChecked) -> wifiManager.setWifiEnabled(isChecked)));
+        imageButton = findViewById(R.id.imagewifi);
+        if (!wifiState) {
+            wifiManager.setWifiEnabled(true);
+            wifiState = true;
+            imageButton.setImageResource(R.drawable.on);
+        } else {
+            wifiManager.setWifiEnabled(false);
+            wifiState = false;
+            imageButton.setImageResource(R.drawable.off);
+        }
         backwifi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
