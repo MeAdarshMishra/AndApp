@@ -16,11 +16,11 @@ public class MediaPlayermp3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_media_playermp3);
-        play = findViewById(R.id.button140);
-        pause = findViewById(R.id.button141);
-        stop = findViewById(R.id.button142);
-        back = findViewById(R.id.button143);
-        mediaPlayer = MediaPlayer.create(this, R.raw.believer);
+        play = findViewById(R.id.playmp3);
+        pause = findViewById(R.id.pausemp3);
+        stop = findViewById(R.id.stopmp3);
+        back = findViewById(R.id.backmp3);
+        mediaPlayer = MediaPlayer.create(this, R.raw.onmyway);
         play.setOnClickListener(v -> mediaPlayer.start());
         pause.setOnClickListener(v -> mediaPlayer.pause());
         stop.setOnClickListener(v -> mediaPlayer.stop());
