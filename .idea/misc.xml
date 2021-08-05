@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/on.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_accelerometer_bluetooth.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_accelerometer_flash.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_accelerometer_sensor.xml" value="0.14739583333333334" />
@@ -11,7 +12,7 @@
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_bluetooth.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_calculator.xml" value="0.176" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_database_page.xml" value="0.15217391304347827" />
-        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_flash_light.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_flash_light.xml" value="0.264" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_login_page.xml" value="0.264" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_main.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_online_login.xml" value="0.15217391304347827" />
