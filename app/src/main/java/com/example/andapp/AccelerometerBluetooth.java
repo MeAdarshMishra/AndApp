@@ -9,6 +9,7 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +18,7 @@ public class AccelerometerBluetooth extends AppCompatActivity implements SensorE
     Button back;
     SensorManager sensorManager;
     Sensor sensor;
+    TextView t1;
 
 
     @Override
@@ -24,6 +26,7 @@ public class AccelerometerBluetooth extends AppCompatActivity implements SensorE
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accelerometer_bluetooth);
         back = findViewById(R.id.abluetoothback);
+        t1 = findViewById(R.id.textabluetooth);
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
@@ -57,4 +60,5 @@ public class AccelerometerBluetooth extends AppCompatActivity implements SensorE
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
+
 }

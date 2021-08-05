@@ -6,7 +6,7 @@
     tools:context=".AccelerometerBluetooth">
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/textabluetooth"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
