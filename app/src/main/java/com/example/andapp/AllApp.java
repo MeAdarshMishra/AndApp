@@ -19,8 +19,7 @@ public class AllApp extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AllApp.this, OnlineLogin.class);
-                startActivity(intent)
-                ;
+                startActivity(intent);
                 finish();
             }
         });

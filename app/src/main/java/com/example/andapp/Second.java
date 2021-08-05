@@ -62,7 +62,7 @@ public class Second extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent k = new Intent(Second.this, AccelerometerSensor.class);
+                Intent k = new Intent(Second.this, AllApp.class);
                 startActivity(k);
                 finish();
             }

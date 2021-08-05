@@ -14,4 +14,13 @@
         android:layout_marginTop="309dp"
         android:layout_marginEnd="161dp"
         android:text="back" />
+
+    <Button
+        android:id="@+id/Alappaccelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="263dp"
+        android:text="Accelerometer Sensor" />
 </RelativeLayout>

@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="236dp"
-        android:text="Accelerometer Wifi"
+        android:text="Online Login Page Click Sign-in to Continue!"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold" />
