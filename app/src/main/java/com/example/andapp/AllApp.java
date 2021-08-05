@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AllApp extends AppCompatActivity {
-    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11;
+    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class AllApp extends AppCompatActivity {
         b9 = findViewById(R.id.wifiall);
         b10 = findViewById(R.id.mp3all);
         b11 = findViewById(R.id.mp4all);
+        b12 = findViewById(R.id.weball);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -110,6 +111,14 @@ public class AllApp extends AppCompatActivity {
             public void onClick(View v) {
                 Intent mp4 = new Intent(AllApp.this, MediaPlayermp4.class);
                 startActivity(mp4);
+                finish();
+            }
+        });
+        b12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent web = new Intent(AllApp.this, Internet.class);
+                startActivity(web);
                 finish();
             }
         });
