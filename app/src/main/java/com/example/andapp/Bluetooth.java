@@ -1,7 +1,9 @@
 package com.example.andapp;
 
 import android.bluetooth.BluetoothAdapter;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ToggleButton;
 
@@ -24,6 +26,14 @@ public class Bluetooth extends AppCompatActivity {
                 bluetoothAdapter.enable();
             } else {
                 bluetoothAdapter.disable();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back = new Intent(Bluetooth.this, AllApp.class);
+                startActivity(back);
+                finish();
             }
         });
     }
