@@ -5,27 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".WifiPage">
 
-    <Button
-        android:id="@+id/wifiOnButton"
+    <ToggleButton
+        android:id="@+id/togglewifi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="170dp"
-        android:layout_marginTop="175dp"
-        android:text="Wifi On" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="157dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="WiFi OFF"
+        android:textOn="WiFi ON" />
 
-    <Button
-        android:id="@+id/wifiOffButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="165dp"
-        android:layout_marginBottom="361dp"
-        android:text="Wifi Off" />
 
     <Button
         android:id="@+id/backwifi"

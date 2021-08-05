@@ -5,31 +5,30 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ToggleButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class WifiPage extends AppCompatActivity {
+    Button backwifi;
+    ToggleButton toggleButton;
+    WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Button wifion,wifioff,backwifi;
-        WifiManager wifiManager;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wifi_page);
-        wifion=findViewById(R.id.wifiOnButton);
-        wifioff=findViewById(R.id.wifiOffButton);
-        backwifi=findViewById(R.id.backwifi);
-        wifiManager=(WifiManager) getApplicationContext().getApplicationContext().getSystemService(WIFI_SERVICE);
-        wifion.setOnClickListener(v -> wifiManager.setWifiEnabled(true));
-        wifioff.setOnClickListener(v -> wifiManager.setWifiEnabled(false));
+        backwifi = findViewById(R.id.backwifi);
+        toggleButton = findViewById(R.id.togglewifi);
+        toggleButton.setOnCheckedChangeListener((buttonView, isChecked) -> wifiManager.setWifiEnabled(isChecked));
         backwifi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(WifiPage.this, AllApp.class);
-                startActivity(i);
+                Intent back = new Intent(WifiPage.this, AllApp.class);
+                startActivity(back);
                 finish();
             }
         });
     }
-
 }

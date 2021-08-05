@@ -54,6 +54,8 @@ public class FlashLight extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent back = new Intent(FlashLight.this, AllApp.class);
+                startActivity(back);
+                finish();
             }
         });
     }
