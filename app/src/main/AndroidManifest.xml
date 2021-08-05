@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndApp">
         <activity
+            android:name=".MediaPlayermp3"
+            android:exported="true" />
+        <activity
             android:name=".Internet"
             android:exported="true" />
         <activity
