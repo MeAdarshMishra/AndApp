@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AllApp extends AppCompatActivity {
-    Button b1, b2, b3;
+    Button b1, b2, b3, b4, b5, b6, b7, b8, b9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,12 @@ public class AllApp extends AppCompatActivity {
         b1 = findViewById(R.id.allappbackbutton);
         b2 = findViewById(R.id.Allappaccelerometer);
         b3 = findViewById(R.id.calulatorallapp);
+        b4 = findViewById(R.id.Bluetoothallapp);
+        b5 = findViewById(R.id.databaseallapp);
+        b6 = findViewById(R.id.Flashallapp);
+        b7 = findViewById(R.id.ttspeechall);
+        b8 = findViewById(R.id.vibrationall);
+        b9 = findViewById(R.id.wifiall);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +44,54 @@ public class AllApp extends AppCompatActivity {
             public void onClick(View v) {
                 Intent calculator = new Intent(AllApp.this, Calculator.class);
                 startActivity(calculator);
+                finish();
+            }
+        });
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bluetooth = new Intent(AllApp.this, Bluetooth.class);
+                startActivity(bluetooth);
+                finish();
+            }
+        });
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent database = new Intent(AllApp.this, DatabasePage.class);
+                startActivity(database);
+                finish();
+            }
+        });
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent flashlight = new Intent(AllApp.this, FlashLight.class);
+                startActivity(flashlight);
+                finish();
+            }
+        });
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ttspeech = new Intent(AllApp.this, TtSpeech.class);
+                startActivity(ttspeech);
+                finish();
+            }
+        });
+        b8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent vibration = new Intent(AllApp.this, VibrationSensor.class);
+                startActivity(vibration);
+                finish();
+            }
+        });
+        b9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent wifi = new Intent(AllApp.this, WifiPage.class);
+                startActivity(wifi);
                 finish();
             }
         });
