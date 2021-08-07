@@ -21,6 +21,7 @@
     <Button
         android:id="@+id/abluetoothback"
         android:layout_width="match_parent"
+        android:background="@drawable/backbutton"
         android:layout_height="79dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"

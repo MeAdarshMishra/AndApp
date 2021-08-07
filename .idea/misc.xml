@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/backbutton.xml" value="0.41384615384615386" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/custom_button.xml" value="0.28541666666666665" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/off.xml" value="0.1578125" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/drawable/on.xml" value="0.20520833333333333" />
@@ -22,6 +23,8 @@
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_media_playermp3.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_media_playermp4.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_offline_login.xml" value="0.31929347826086957" />
+        <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_offline_signup.xml" value="0.31929347826086957" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_online_login.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_second.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/Adarsh Mishra/AndroidStudioProjects/AndApp2/app/src/main/res/layout/activity_tt_speech.xml" value="0.15217391304347827" />
