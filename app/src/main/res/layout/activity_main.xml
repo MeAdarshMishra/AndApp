@@ -7,6 +7,28 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.Material.Light.TextView"
+        android:layout_width="156dp"
+        android:layout_height="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginBottom="386dp"
+        android:text="For Offline Setup"
+        android:textColor="#266F69"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
         android:id="@+id/textView3"
         style="@android:style/Widget.Material.Light.TextView"
         android:layout_width="367dp"
@@ -29,24 +51,29 @@
 
     <Button
         android:id="@+id/offlineloginmainpage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="133dp"
-        android:layout_marginBottom="388dp"
-        android:text="Offline Setup" />
+        android:layout_marginStart="246dp"
+        android:layout_marginBottom="392dp"
+        android:background="@drawable/custom_button"
+        android:text="Offline"
+        android:textAllCaps="false"
+
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/onlineloginmainpage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="138dp"
-        android:layout_marginBottom="272dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/custom_button"
         android:text="Online Setup" />
 
 </RelativeLayout>
