@@ -23,7 +23,7 @@ public class DatabasePage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_database_page);
         t1 = findViewById(R.id.RealtimedatabaseTextview);
         e1 = findViewById(R.id.nametextdatabase);
         e2 = findViewById(R.id.passwordtextdatabase);
@@ -40,13 +40,13 @@ public class DatabasePage extends AppCompatActivity {
                 String s3 = e3.getText().toString();
                 String s4 = e4.getText().toString();
                 if (s4.length() != 10) {
-                    Toast.makeText(DatabasePage.this, "Enter a valid Phone number", Toast.LENGTH_SHORT).show();
+                    e4.setError("Not a valid Number!");
                 } else {
                     Users users = new Users(s1, s2, s3, s4);
                     databaseReference.child(s4).setValue(users);
                     Toast.makeText(DatabasePage.this, "Database Saved", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(DatabasePage.this, AllApp.class);
-                    startActivity(i);
+                    Intent a = new Intent(DatabasePage.this, AllApp.class);
+                    startActivity(a);
                     finish();
                 }
             }

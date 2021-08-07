@@ -20,8 +20,17 @@ public class Camera extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
         cbutton = findViewById(R.id.camerabutton);
+        back = findViewById(R.id.backcamera);
         imageView = findViewById(R.id.cameraview);
         back = findViewById(R.id.backcamera);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back = new Intent(Camera.this, AllApp.class);
+                startActivity(back);
+                finish();
+            }
+        });
         cbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,5 +55,6 @@ public class Camera extends AppCompatActivity {
                 finish();
             }
         });
+
     }
 }
