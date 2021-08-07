@@ -22,7 +22,7 @@ public class AllApp extends AppCompatActivity {
         b6 = findViewById(R.id.Flashallapp);
         b7 = findViewById(R.id.ttspeechall);
         b8 = findViewById(R.id.vibrationall);
-        b9 = findViewById(R.id.wifiall);
+        b9 = findViewById(R.id.camerapageall);
         b10 = findViewById(R.id.mp3all);
         b11 = findViewById(R.id.mp4all);
         b12 = findViewById(R.id.weball);
@@ -93,8 +93,8 @@ public class AllApp extends AppCompatActivity {
         b9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent wifi = new Intent(AllApp.this, Camera.class);
-                startActivity(wifi);
+                Intent camerapage = new Intent(AllApp.this, Camerapage.class);
+                startActivity(camerapage);
                 finish();
             }
         });
