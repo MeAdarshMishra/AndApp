@@ -23,8 +23,7 @@ public class AllApp extends AppCompatActivity {
         b7 = findViewById(R.id.ttspeechall);
         b8 = findViewById(R.id.vibrationall);
         b9 = findViewById(R.id.camerapageall);
-        b10 = findViewById(R.id.mp3all);
-        b11 = findViewById(R.id.mp4all);
+        b10 = findViewById(R.id.mppall);
         b12 = findViewById(R.id.weball);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,16 +100,8 @@ public class AllApp extends AppCompatActivity {
         b10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mp3 = new Intent(AllApp.this, MediaPlayermp3.class);
-                startActivity(mp3);
-                finish();
-            }
-        });
-        b11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent mp4 = new Intent(AllApp.this, MediaPlayermp4.class);
-                startActivity(mp4);
+                Intent mpp = new Intent(AllApp.this, mppage.class);
+                startActivity(mpp);
                 finish();
             }
         });

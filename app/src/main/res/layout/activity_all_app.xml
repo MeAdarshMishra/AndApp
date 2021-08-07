@@ -105,7 +105,7 @@
         android:text="Camera" />
 
     <Button
-        android:id="@+id/mp3all"
+        android:id="@+id/mppall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -114,20 +114,8 @@
         android:layout_marginStart="172dp"
         android:layout_marginTop="551dp"
         android:layout_marginEnd="151dp"
-        android:text="MP3" />
+        android:text="Songs" />
 
-    <Button
-        android:id="@+id/mp4all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="170dp"
-        android:layout_marginTop="451dp"
-        android:layout_marginEnd="153dp"
-        android:text="MP4" />
 
     <Button
         android:id="@+id/weball"
