@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainactivity"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView2"
-        style="@android:style/Widget.Material.Light.TextView"
-        android:layout_width="188dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="183dp"
-        android:layout_marginBottom="457dp"
-        android:text="For Offline Setup"
-        android:textColor="#266F69"
-        android:textSize="34sp"
-        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/textView3"
@@ -28,44 +14,68 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="33dp"
-        android:text="Services"
+        android:layout_marginTop="25dp"
+        android:text="Welcome to ANDAPP"
         android:textColor="#266F69"
         android:textSize="48sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/offlineloginmainpage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+    <TextView
+        android:id="@+id/forofflinesetup"
+        android:layout_width="162dp"
+        android:layout_height="109dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="271dp"
-        android:layout_marginBottom="454dp"
-        android:background="@drawable/custom_button"
-        android:text="Offline"
-        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="253dp"
+        android:text="Offline Setup"
+        android:textColor="#266F69"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
 
-        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/foronlinesetup"
+        android:layout_width="167dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="438dp"
+        android:text="Online Setup"
+        android:textColor="#266F69"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/onlineloginmainpage"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="255dp"
-        android:layout_marginBottom="193dp"
+        android:layout_width="140dp"
+        android:layout_height="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/forofflinesetup"
         android:background="@drawable/custom_button"
-        android:text="Online Setup" />
+        android:text="+"
+        android:textColor="@color/teal_200"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/offlineloginmainpage"
+        android:layout_width="140dp"
+        android:layout_height="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="41dp"
+        android:layout_toEndOf="@+id/forofflinesetup"
+        android:background="@drawable/custom_button"
+        android:text="+"
+        android:textColor="@color/teal_200"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
