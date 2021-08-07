@@ -59,38 +59,7 @@
         android:layout_marginEnd="33dp"
         android:text="DataBaseUpdate" />
 
-    <Button
-        android:id="@+id/Flashallapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="486dp"
-        android:layout_marginEnd="36dp"
-        android:text="FlashLight" />
 
-    <Button
-        android:id="@+id/ttspeechall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="265dp"
-        android:layout_marginEnd="254dp"
-        android:text="Text To Speech" />
-
-    <Button
-        android:id="@+id/vibrationall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="402dp"
-        android:layout_marginEnd="290dp"
-        android:text="Vibration" />
 
     <Button
         android:id="@+id/camerapageall"
