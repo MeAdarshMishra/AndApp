@@ -18,6 +18,9 @@
         android:theme="@style/Theme.AndApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".mppage"
+            android:exported="true" />
+        <activity
             android:name=".Camerapage"
             android:exported="true" />
         <activity
