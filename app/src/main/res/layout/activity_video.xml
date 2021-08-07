@@ -28,11 +28,14 @@
         android:textAlignment="center"
         android:textStyle="bold|italic" />
 
-    <VideoView
+    <ImageView
         android:id="@+id/videoviewcamera"
-        android:layout_width="407dp"
-        android:layout_height="378dp"
+        app:srcCompat="@drawable/cmera"
+        android:layout_width="match_parent"
         android:layout_alignParentTop="true"
+        android:layout_height="384dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp" />
 </RelativeLayout>
