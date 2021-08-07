@@ -39,7 +39,6 @@
         <activity android:name=".DatabasePage" />
         <activity android:name=".OfflineSignup" />
         <activity android:name=".OfflineLogin" />
-        <activity android:name=".LoginPage" />
         <activity android:name=".Bluetooth" />
         <activity android:name=".AccelerometerFlash" />
         <activity android:name=".AccelerometerWifi" />
