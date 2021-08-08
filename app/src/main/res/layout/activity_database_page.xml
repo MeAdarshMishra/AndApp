@@ -79,7 +79,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="44dp"
-        android:text="         RealTimeDatabase_Update"
-        android:textColor="#F44336"
+        android:text="         Realtime Database Update"
+        android:textColor="#36A8F4"
         android:textSize="24sp" />
 </RelativeLayout>
