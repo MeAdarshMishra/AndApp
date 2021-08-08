@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/offlinelogin"
     tools:context=".OfflineLogin">
 
     <EditText
@@ -37,6 +38,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="306dp"
+        android:background="@drawable/round_button"
         android:text="Sign In" />
 
     <TextView
@@ -51,12 +53,13 @@
 
     <Button
         android:id="@+id/LoginSignup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="35dp"
-        android:layout_marginBottom="156dp"
+        android:layout_marginBottom="137dp"
+        android:background="@drawable/round_button"
         android:text="SignUp" />
 
     <Button
