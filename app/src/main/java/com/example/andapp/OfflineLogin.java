@@ -67,7 +67,7 @@ public class OfflineLogin extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent back = new Intent(OfflineLogin.this, MainActivity.class);
+                Intent back = new Intent(OfflineLogin.this, HomeActivity.class);
                 startActivity(back);
                 finish();
             }

@@ -5,15 +5,16 @@
     android:layout_height="wrap_content"
     android:background="@drawable/logindark"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="316dp"
         android:layout_height="374dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="183dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="37dp"
         android:text="WELCOME TO ANDAPP"
         android:textSize="60sp" />
 

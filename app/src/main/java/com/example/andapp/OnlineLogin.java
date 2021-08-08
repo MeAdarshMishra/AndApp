@@ -44,7 +44,7 @@ public class OnlineLogin extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent back = new Intent(OnlineLogin.this, MainActivity.class);
+                Intent back = new Intent(OnlineLogin.this, HomeActivity.class);
                 startActivity(back);
                 finish();
             }
