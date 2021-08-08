@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/google"
     tools:context=".Second">
 
 
@@ -34,20 +35,24 @@
 
     <Button
         android:id="@+id/buttonsecond"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="137dp"
+        android:layout_height="62dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="136dp"
+        android:background="@drawable/round_button"
         android:text="Logout" />
 
     <Button
         android:id="@+id/button2second"
-        android:background="@drawable/backbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:text="Continue" />
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/backbutton"
+        android:text="Continue"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 </RelativeLayout>

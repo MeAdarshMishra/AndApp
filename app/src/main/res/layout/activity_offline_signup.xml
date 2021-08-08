@@ -61,12 +61,15 @@
 
     <Button
         android:id="@+id/signuppageback"
-        android:background="@drawable/backbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
-        android:text="Back" />
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/backbutton"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>

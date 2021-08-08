@@ -28,4 +28,17 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="174dp" />
+
+    <Button
+        android:id="@+id/googleloginback"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/backbutton"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
