@@ -30,7 +30,16 @@ public class Video extends AppCompatActivity {
             Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
             startActivityForResult(intent, 100);
         });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent backv = new Intent(Video.this, Camerapage.class);
+                startActivity(backv);
+                finish();
+            }
+        });
     }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -45,14 +54,6 @@ public class Video extends AppCompatActivity {
             Intent back = new Intent(Video.this, Camerapage.class);
             startActivity(back);
             finish();
-        });
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent backv = new Intent(Video.this, Camerapage.class);
-                startActivity(backv);
-                finish();
-            }
         });
 
 

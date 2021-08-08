@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="210dp"
         android:text="ClickToVibrate"
+        android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

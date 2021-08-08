@@ -18,14 +18,18 @@
 
     <Button
         android:id="@+id/searchweb"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        android:layout_width="212dp"
+        android:layout_height="67dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="96dp"
-        android:layout_marginBottom="164dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="137dp"
+        android:background="@drawable/custom_button"
         android:text="Search"
+        android:textAlignment="center"
         android:textStyle="bold|italic" />
 
     <EditText

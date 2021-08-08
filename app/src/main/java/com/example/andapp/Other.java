@@ -51,5 +51,13 @@ public class Other extends AppCompatActivity {
                 finish();
             }
         });
+        vibration.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent vibr = new Intent(Other.this, VibrationSensor.class);
+                startActivity(vibr);
+                finish();
+            }
+        });
     }
 }

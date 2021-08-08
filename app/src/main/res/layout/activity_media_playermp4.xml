@@ -9,6 +9,7 @@
         android:id="@+id/videoViewmp4"
         android:layout_width="match_parent"
         android:layout_height="424dp"
+        android:background="@drawable/custom_button"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -23,8 +24,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="501dp"
-        android:layout_marginEnd="236dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="246dp"
+        android:background="@drawable/custom_button"
         android:text="PLAY" />
 
     <Button
@@ -33,8 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="173dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="157dp"
+        android:background="@drawable/custom_button"
         android:text="Stop" />
 
     <Button

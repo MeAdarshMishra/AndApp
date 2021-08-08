@@ -12,8 +12,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="195dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="107dp"
+        android:background="@drawable/custom_button"
         android:text="PLAY" />
 
     <Button
@@ -21,8 +22,11 @@
         android:layout_width="184dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="309dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="105dp"
+        android:background="@drawable/custom_button"
         android:text="PAUSE" />
 
     <Button
@@ -30,6 +34,7 @@
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="259dp"
         android:text="STOP" />
