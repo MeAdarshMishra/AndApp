@@ -20,12 +20,16 @@
 
     <Button
         android:id="@+id/camerabutton"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
+        android:layout_width="306dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="226dp"
-        android:text="Camera" />
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="439dp"
+        android:background="@drawable/round_button"
+        android:text="Camera"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/backcamera"

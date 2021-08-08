@@ -26,7 +26,7 @@ public class Camera extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent back = new Intent(Camera.this, AllApp.class);
+                Intent back = new Intent(Camera.this, Camerapage.class);
                 startActivity(back);
                 finish();
             }
