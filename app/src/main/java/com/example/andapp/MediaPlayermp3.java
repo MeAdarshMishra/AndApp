@@ -27,7 +27,7 @@ public class MediaPlayermp3 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent back = new Intent(MediaPlayermp3.this, AllApp.class);
+                Intent back = new Intent(MediaPlayermp3.this, mppage.class);
                 startActivity(back);
                 finish();
             }

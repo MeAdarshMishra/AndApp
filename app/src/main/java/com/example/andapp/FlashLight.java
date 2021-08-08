@@ -53,7 +53,7 @@ public class FlashLight extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent back = new Intent(FlashLight.this, AllApp.class);
+                Intent back = new Intent(FlashLight.this, Other.class);
                 startActivity(back);
                 finish();
             }

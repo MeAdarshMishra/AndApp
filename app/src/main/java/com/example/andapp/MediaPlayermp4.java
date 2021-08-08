@@ -32,7 +32,7 @@ public class MediaPlayermp4 extends AppCompatActivity {
         stop.setOnClickListener(v -> videoView.stopPlayback());
 
         back.setOnClickListener(v -> {
-            Intent intent = new Intent(MediaPlayermp4.this, AllApp.class);
+            Intent intent = new Intent(MediaPlayermp4.this, mppage.class);
             startActivity(intent);
             finish();
         });
