@@ -9,19 +9,19 @@
     <TextView
         android:id="@+id/textView2"
         style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
-        android:layout_width="372dp"
-        android:layout_height="448dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="143dp"
-        android:layout_marginEnd="19dp"
-        android:fontFamily="sans-serif-black"
-        android:text="WELCOME TO ANDAPP"
+        android:layout_gravity="center"
+        android:layout_marginTop="276dp"
+        android:padding="12dp"
+        android:shadowColor="#F5A623"
+        android:shadowDx="12"
         android:textAlignment="center"
-        android:textColor="#669933"
-        android:textSize="60sp" />
+        android:shadowDy="12"
+        android:shadowRadius="8"
+        android:text="Welcome to ANDAPP!"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
