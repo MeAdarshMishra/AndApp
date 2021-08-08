@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/google"
     tools:context=".OnlineLogin">
 
     <TextView
@@ -12,8 +13,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="193dp"
         android:text="Online Login Page Click Sign-in to Continue!"
         android:textAlignment="center"
         android:textSize="20sp"
