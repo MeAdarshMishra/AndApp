@@ -18,84 +18,116 @@
         android:textAlignment="center"
         android:textStyle="bold|italic" />
 
+
     <Button
         android:id="@+id/Allappaccelerometer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="585dp"
-        android:text="Accelerometer Sensor" />
+        android:layout_centerInParent="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="643dp"
+        android:background="@drawable/round_button"
+        android:text="Accelerometer Sensor"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/calulatorallapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="378dp"
-        android:text="Calculator" />
+        android:layout_centerInParent="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/round_button"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/otherall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="509dp"
-        android:text="OTHER" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/round_button"
+        android:text="Other"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/databaseallapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="181dp"
-        android:layout_marginEnd="33dp"
-        android:text="DataBaseUpdate" />
-
-
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="91dp"
+        android:background="@drawable/round_button"
+        android:text="Database Update"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/camerapageall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="286dp"
-        android:layout_marginTop="581dp"
-        android:layout_marginEnd="37dp"
-        android:text="Camera" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="556dp"
+        android:background="@drawable/round_button"
+        android:text="Camera"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/mppall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="551dp"
-        android:layout_marginEnd="151dp"
-        android:text="Songs" />
-
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="275dp"
+        android:background="@drawable/round_button"
+        android:text="SONGS"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/weball"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="307dp"
+        android:layout_height="67dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="356dp"
-        android:layout_marginEnd="161dp"
-        android:text="Internet" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="460dp"
+        android:background="@drawable/round_button"
+        android:text="INTERNET"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
