@@ -35,7 +35,7 @@ public class VibrationSensor extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(VibrationSensor.this, AllApp.class);
+                Intent i = new Intent(VibrationSensor.this, Other.class);
                 startActivity(i);
                 finish();
             }
