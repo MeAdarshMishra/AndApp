@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2a5391"
+    android:background="@drawable/database"
     android:visibility="visible">
 
     <Button
@@ -18,8 +18,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="190dp"
-        android:text="ADD"
         android:background="@drawable/custom_button"
+        android:text="ADD"
         android:visibility="visible" />
 
 
@@ -104,9 +104,9 @@
         android:layout_height="79dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/backbutton"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="6dp"
+        android:background="@drawable/backbutton"
         android:text="Back"
         android:textAlignment="center"
         android:textStyle="bold|italic" />
