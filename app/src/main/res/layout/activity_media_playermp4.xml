@@ -9,7 +9,6 @@
         android:id="@+id/videoViewmp4"
         android:layout_width="match_parent"
         android:layout_height="424dp"
-        android:background="@drawable/custom_button"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
