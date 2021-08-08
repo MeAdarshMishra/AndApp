@@ -12,16 +12,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
         android:layout_marginStart="13dp"
-        android:layout_marginTop="299dp"
+        android:layout_marginTop="214dp"
         android:fontFamily="monospace"
-        android:text="Move The Device From Initial Position To Turn On/Off The Flash"
+        android:text="Accelerometer FlashLight"
         android:textAlignment="center"
-        android:textColor="#1C1B1B"
+        android:textColor="@color/design_default_color_background"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:typeface="serif" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/aflashb"
