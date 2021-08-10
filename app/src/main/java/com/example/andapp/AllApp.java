@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+// Developer-MeAdarshMishra
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +22,7 @@ public class AllApp extends AppCompatActivity {
         b9 = findViewById(R.id.camerapageall);
         b10 = findViewById(R.id.mppall);
         b12 = findViewById(R.id.weball);
+        
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
