@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Bluetooth Page
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.hardware.Sensor;
