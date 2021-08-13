@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Accelerometer Wifi
 import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
