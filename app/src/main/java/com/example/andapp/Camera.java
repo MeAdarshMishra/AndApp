@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Camera Page
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
