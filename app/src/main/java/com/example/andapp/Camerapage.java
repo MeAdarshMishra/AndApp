@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Main Camera Page
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
