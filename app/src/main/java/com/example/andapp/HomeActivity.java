@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Main Home Button Page 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
