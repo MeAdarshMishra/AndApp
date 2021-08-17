@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+// FlashLight Page
 import android.content.Intent;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraManager;
