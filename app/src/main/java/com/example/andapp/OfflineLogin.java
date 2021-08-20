@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Offline Login page
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
