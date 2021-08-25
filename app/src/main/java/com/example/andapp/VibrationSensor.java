@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+// Vibration Sensor page
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
