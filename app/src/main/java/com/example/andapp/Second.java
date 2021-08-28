@@ -1,5 +1,5 @@
 package com.example.andapp;
-
+//Second Page java
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
